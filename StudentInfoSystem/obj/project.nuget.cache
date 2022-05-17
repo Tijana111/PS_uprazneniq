@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "sR231pgTfvBQ3a1JKE8eEYlJM4pbHSLluxnuAKbl7IoidBIOOK/lxWZMAqi2wH/5I+gBkTzaX7U7fyh3iyvWsQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\User\\Desktop\\ps-upr-master\\ps-upr-master\\StudentInfoSystem\\StudentInfoSystem.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project UserLogin is not compatible with net5.0-windows7.0 (.NETCoreApp,Version=v5.0). Project UserLogin supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "UserLogin",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "UserLogin/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/UserLogin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserLogin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserLogin/1.0.0": {
+      "type": "project",
+      "path": "../UserLogin/UserLogin.csproj",
+      "msbuildProject": "../UserLogin/UserLogin.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "UserLogin >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\ps-upr-master\\ps-upr-master\\StudentInfoSystem\\StudentInfoSystem.csproj",
+      "projectName": "StudentInfoSystem",
+      "projectPath": "C:\\Users\\User\\Desktop\\ps-upr-master\\ps-upr-master\\StudentInfoSystem\\StudentInfoSystem.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\ps-upr-master\\ps-upr-master\\StudentInfoSystem\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\User\\Desktop\\ps-upr-master\\ps-upr-master\\UserLogin\\UserLogin.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\ps-upr-master\\ps-upr-master\\UserLogin\\UserLogin.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project UserLogin is not compatible with net5.0-windows7.0 (.NETCoreApp,Version=v5.0). Project UserLogin supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "UserLogin",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}
